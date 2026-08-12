@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Digitale - La Tavola Siciliana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .qr-section {
+            background: #f8f9fa;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .qr-section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .menu-section {
+            padding: 30px 20px;
+        }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .category-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px dashed #dee2e6;
+            transition: transform 0.2s ease;
+        }
+
+        .menu-item:hover {
+            transform: translateX(5px);
+            background: #f8f9fa;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 8px;
+        }
+
+        .item-info {
+            flex: 1;
+        }
+
+        .item-name {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #2d3436;
+            margin-bottom: 5px;
+        }
+
+        .item-description {
+            color: #636e72;
+            font-size: 0.95em;
+            line-height: 1.4;
+        }
+
+        .item-price {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #667eea;
+            min-width: 80px;
+            text-align: right;
+        }
+
+        .footer {
+            background: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        .allergens {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .allergens h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .allergens p {
+            color: #856404;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .menu-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .item-price {
+                margin-top: 10px;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍽️ La Tavola Siciliana</h1>
+            <p>Cucina Tradizionale Italiana dal 1985</p>
+            <p style="margin-top: 10px; font-size: 1em;">📍 Via Roma 123, Catania | 📞 +39 095 1234567</p>
+        </div>
+
+        <div class="qr-section">
+            <h2>Benvenuti!</h2>
+            <p style="font-size: 1.1em; color: #636e72; margin-bottom: 15px;">
+                Avvicina il tuo smartphone per visualizzare il nostro menu digitale
+            </p>
+            <p style="color: #667eea; font-weight: 600;">
+                📱 NFC abilitato | Aggiornato in tempo reale
+            </p>
+        </div>
+
+        <div class="menu-section">
+            <div class="category">
+                <div class="category-title">🥗 Antipasti</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Bruschetta al Pomodoro</div>
+                        <div class="item-description">Pane tostato, pomodori freschi, basilico, olio EVO</div>
+                    </div>
+                    <div class="item-price">€8.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Caprese Siciliana</div>
+                        <div class="item-description">Mozzarella di bufala, pomodori pachino, origano</div>
+                    </div>
+                    <div class="item-price">€12.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Arancini Misti (3 pz)</div>
+                        <div class="item-description">Al ragò¨¨¨, al burro, alla norma</div>
+                    </div>
+                    <div class="item-price">€10.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Tagliere di Salumi e Formaggi</div>
+                        <div class="item-description">Selezione di prodotti locali con miele e mostarda</div>
+                    </div>
+                    <div class="item-price">€18.00</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🍝 Primi Piatti</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Pasta alla Norma</div>
+                        <div class="item-description">Rigatoni, melanzane, pomodoro, ricotta salata</div>
+                    </div>
+                    <div class="item-price">€14.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Spaghetti alle Vongole</div>
+                        <div class="item-description">Vongole veraci, aglio, prezzemolo, vino bianco</div>
+                    </div>
+                    <div class="item-price">€16.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Lasagna della Casa</div>
+                        <div class="item-description">Ragò¨¨¨ di carne, besciamella, parmigiano</div>
+                    </div>
+                    <div class="item-price">€15.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Risotto ai Frutti di Mare</div>
+                        <div class="item-description">Carpaccio di gamberi, zucchine, zafferano</div>
+                    </div>
+                    <div class="item-price">€18.00</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🥩 Secondi Piatti</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Tagliata di Manzo</div>
+                        <div class="item-description">Con rucola, grana e aceto balsamico</div>
+                    </div>
+                    <div class="item-price">€22.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Pesce del Giorno</div>
+                        <div class="item-description">Fresco, alla griglia o al forno (chiedere al cameriere)</div>
+                    </div>
+                    <div class="item-price">€24.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Pollo alla Siciliana</div>
+                        <div class="item-description">Con olive, capperi e pomodorini</div>
+                    </div>
+                    <div class="item-price">€16.00</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🍰 Dolci</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Cannolo Siciliano</div>
+                        <div class="item-description">Ricotta fresca, pistacchi, cioccolato</div>
+                    </div>
+                    <div class="item-price">€5.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Tiramisò¨¨¨</div>
+                        <div class="item-description">Classico con caffè espresso</div>
+                    </div>
+                    <div class="item-price">€6.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Panna Cotta</div>
+                        <div class="item-description">Con salsa ai frutti di bosco</div>
+                    </div>
+                    <div class="item-price">€5.50</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🍷 Bevande</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Vino della Casa (bicchiere)</div>
+                        <div class="item-description">Rosso o Bianco</div>
+                    </div>
+                    <div class="item-price">€5.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Acqua Minerale</div>
+                        <div class="item-description">Naturale o Frizzante (500ml)</div>
+                    </div>
+                    <div class="item-price">€3.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Caffè¨¨</div>
+                        <div class="item-description">Espresso o Macchiato</div>
+                    </div>
+                    <div class="item-price">€2.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Birra alla Spina</div>
+                        <div class="item-description">Media (400ml)</div>
+                    </div>
+                    <div class="item-price">€6.00</div>
+                </div>
+            </div>
+
+            <div class="allergens">
+                <h3>⚠️ Informazioni Allergeni</h3>
+                <p>
+                    I nostri piatti possono contenere: glutine, latticini, uova, pesce, crostacei, 
+                    molluschi, soia, sedano, senape, sesamo, lupini, frutta a guscio. 
+                    Si prega di informare il personale in caso di allergie o intolleranze.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🕐 Orari: Mar-Dom 12:00-15:00 | 19:00-23:00</p>
+            <p style="margin-top: 10px;">💳 Accettiamo: Contanti, Carte, Satispay</p>
+            <p style="margin-top: 15px; opacity: 0.7;">Grazie per la visita! 🙏</p>
+        </div>
+    </div>
+</body>
+</html>
