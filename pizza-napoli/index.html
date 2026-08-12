@@ -1,68 +1,270 @@
-🍕 Pizza Napoli
-Autentica Pizza Napoletana
-📍 Corso Italia 45, Napoli | 📞 +39 081 9876543
-🔥 Specialità»¨ della Casa
-Pizza con lievito madre 48h, farina 00, pomodoro San Marzano DOP
-🍕 Pizze Classiche
-Margherita
-Pomodoro, mozzarella fior di latte, basilico, olio EVO
-€8.00
-Marinara
-Pomodoro, aglio, origano, olio EVO (senza mozzarella)
-€7.00
-Diavola
-Pomodoro, mozzarella, salame piccante, peperoncino
-€10.00
-Capricciosa
-Pomodoro, mozzarella, prosciutto, funghi, carciofini, olive
-€11.00
-🍕 Pizze Speciali
-Napoli
-Pomodoro, mozzarella, acciughe, capperi, olive nere
-€12.00
-Quattro Formaggi
-Mozzarella, gorgonzola, provola, parmigiano
-€12.00
-Prosciutto e Funghi
-Pomodoro, mozzarella, prosciutto cotto, funghi freschi
-€11.00
-Ortolana
-Pomodoro, mozzarella, melanzane, zucchine, peperoni
-€11.00
-🥗 Insalate e Contorni
-Insalata Mista
-Lattuga, pomodori, carote, rucola
-€6.00
-Patatine Fritte
-Fatte in casa
-€4.00
-Frittatina di Pasta
-Specialità¨¨ napoletana
-€5.00
-🍰 Dolci
-Pizza Fritta
-Ricotta, zucchero, cannella
-€6.00
-Tiramisò¨¨¨
-Classico napoletano
-€6.00
-Sfogliatella
-Riccia o frolla
-€4.00
-🍷 Bevande
-Birra alla Spina
-Media (400ml)
-€5.00
-Coca Cola
-Lattina (330ml)
-€3.00
-Acqua Minerale
-Naturale o Frizzante (500ml)
-€2.50
-Caffè¨¨
-Espresso
-€1.50
-🕐 Orari: Lun-Dom 18:00-24:00
-🛵 Consegna a domicilio disponibile
-💳 Accettiamo: Contanti, Carte, Satispay
-Grazie per la visita! 🙏
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Pizza Napoli</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .menu-section { padding: 30px 20px; }
+        .category { margin-bottom: 40px; }
+        .category-title {
+            background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px dashed #dee2e6;
+        }
+        .item-name {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #2d3436;
+            margin-bottom: 5px;
+        }
+        .item-description {
+            color: #636e72;
+            font-size: 0.95em;
+        }
+        .item-price {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #ff6b6b;
+            min-width: 80px;
+            text-align: right;
+        }
+        .footer {
+            background: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .special {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .special h3 { color: #856404; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍕 Pizza Napoli</h1>
+            <p>Autentica Pizza Napoletana</p>
+            <p style="margin-top: 10px;">📍 Corso Italia 45, Napoli | 📞 +39 081 9876543</p>
+        </div>
+
+        <div class="menu-section">
+            <div class="special">
+                <h3>🔥 Specialità della Casa</h3>
+                <p>Pizza con lievito madre 48h, farina 00, pomodoro San Marzano DOP</p>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🍕 Pizze Classiche</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Margherita</div>
+                        <div class="item-description">Pomodoro, mozzarella fior di latte, basilico, olio EVO</div>
+                    </div>
+                    <div class="item-price">€8.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Marinara</div>
+                        <div class="item-description">Pomodoro, aglio, origano, olio EVO (senza mozzarella)</div>
+                    </div>
+                    <div class="item-price">€7.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Diavola</div>
+                        <div class="item-description">Pomodoro, mozzarella, salame piccante, peperoncino</div>
+                    </div>
+                    <div class="item-price">€10.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Capricciosa</div>
+                        <div class="item-description">Pomodoro, mozzarella, prosciutto, funghi, carciofini, olive</div>
+                    </div>
+                    <div class="item-price">€11.00</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🍕 Pizze Speciali</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Napoli</div>
+                        <div class="item-description">Pomodoro, mozzarella, acciughe, capperi, olive nere</div>
+                    </div>
+                    <div class="item-price">€12.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Quattro Formaggi</div>
+                        <div class="item-description">Mozzarella, gorgonzola, provola, parmigiano</div>
+                    </div>
+                    <div class="item-price">€12.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Prosciutto e Funghi</div>
+                        <div class="item-description">Pomodoro, mozzarella, prosciutto cotto, funghi freschi</div>
+                    </div>
+                    <div class="item-price">€11.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Ortolana</div>
+                        <div class="item-description">Pomodoro, mozzarella, melanzane, zucchine, peperoni</div>
+                    </div>
+                    <div class="item-price">€11.00</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🥗 Insalate e Contorni</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Insalata Mista</div>
+                        <div class="item-description">Lattuga, pomodori, carote, rucola</div>
+                    </div>
+                    <div class="item-price">€6.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Patatine Fritte</div>
+                        <div class="item-description">Fatte in casa</div>
+                    </div>
+                    <div class="item-price">€4.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Frittatina di Pasta</div>
+                        <div class="item-description">Specialità napoletana</div>
+                    </div>
+                    <div class="item-price">€5.00</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🍰 Dolci</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Pizza Fritta</div>
+                        <div class="item-description">Ricotta, zucchero, cannella</div>
+                    </div>
+                    <div class="item-price">€6.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Tiramisù</div>
+                        <div class="item-description">Classico napoletano</div>
+                    </div>
+                    <div class="item-price">€6.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Sfogliatella</div>
+                        <div class="item-description">Riccia o frolla</div>
+                    </div>
+                    <div class="item-price">€4.00</div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-title">🍷 Bevande</div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Birra alla Spina</div>
+                        <div class="item-description">Media (400ml)</div>
+                    </div>
+                    <div class="item-price">€5.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Coca Cola</div>
+                        <div class="item-description">Lattina (330ml)</div>
+                    </div>
+                    <div class="item-price">€3.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Acqua Minerale</div>
+                        <div class="item-description">Naturale o Frizzante (500ml)</div>
+                    </div>
+                    <div class="item-price">€2.50</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="item-name">Caffè</div>
+                        <div class="item-description">Espresso</div>
+                    </div>
+                    <div class="item-price">€1.50</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🕐 Orari: Lun-Dom 18:00-24:00</p>
+            <p style="margin-top: 10px;">🛵 Consegna a domicilio disponibile</p>
+            <p style="margin-top: 15px;">💳 Accettiamo: Contanti, Carte, Satispay</p>
+            <p style="margin-top: 15px;">Grazie per la visita! 🙏</p>
+        </div>
+    </div>
+</body>
+</html>
