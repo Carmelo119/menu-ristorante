@@ -1,0 +1,36 @@
+{
+  "restaurant": {
+    "name": "Vanity",
+    "descriptor": "Pub Pizzeria Pizzoleria",
+    "address": "Piazza IV Novembre, 12, 96010 Solarino (SR)",
+    "phone": "+39 0931 922596",
+    "closedDays": ["martedì", "mercoledì"],
+    "source": "vanity_menu.pdf",
+    "sourceDates": ["gennaio 2024", "settembre 2025"],
+    "lastVerified": "2026-08-15"
+  },
+  "sections": {
+    "pizze_tradizionali": "See index.html; normalized primarily from September 2025 page 2. Prices and duplicate variants require venue confirmation.",
+    "pizze_vanity": "Joy, Flambee, Giulicense, Montecarlo, Trento, Parigi, Londra; normalized from September 2025 page 2.",
+    "pizzoli": [
+      {"name":"Ferla","price":"18 € / mini 10 €","ingredients":"carne equina, cipolla, svizzero"},
+      {"name":"Buscemi","price":"17 € / mini 10 €","ingredients":"pollo, svizzero, lattuga"},
+      {"name":"Joyful","price":"18 € / mini 10 €","ingredients":"bufala, pesto di pistacchio, funghi freschi, speck, granella di pistacchio"},
+      {"name":"Pantalica","price":"17 € / mini 10 €","ingredients":"bresaola, mozzarella, rucola, scaglie di grana"},
+      {"name":"Climiti","price":"14 € / mini 9 €","ingredients":"salame piccante, svizzero"},
+      {"name":"Anapo","price":"17 € / mini 10 €","ingredients":"prosciutto crudo, provola affumicata, lattuga, scaglie di grana"},
+      {"name":"Vendicari","price":"16 € / mini 10 €","ingredients":"prosciutto cotto, provola affumicata, lattuga, scaglie di grana"}
+    ],
+    "fritti": ["Dippers* — 3,50 €", "Patatine fritte* — 2,50 €", "7 crocchette di patate* — 3 €", "7 mozzarelline panate* — 3,50 €", "7 olive ascolane* — 3,50 €", "7 anelli di cipolla* — 3,50 €", "Misto fritto — 9 €"],
+    "dolci": ["Pistacchio pizza 9 € / pizzolo 12 €", "Nutella pizza 8 € / pizzolo 11 €"],
+    "bevande": "Analcolici, vini, birre, cocktail, amari e caffè; prezzi riportati nella pagina Bevande del menu.",
+    "supplements": "Supplementi presenti nel PDF con fasce da 0,50 € a 3,00 €; verificare la versione corrente."
+  },
+  "allergens": "Il PDF segnala gli allergeni in grassetto e usa un asterisco per alcuni ingredienti/prodotti. Chiedere sempre conferma al personale.",
+  "notes": [
+    "Il PDF contiene immagini duplicate del menu di gennaio 2024 e settembre 2025.",
+    "Quando esiste una versione più recente, è stata privilegiata quella di settembre 2025.",
+    "Alcuni prezzi risultano ambigui a causa dell'OCR e della disposizione grafica; non considerarli definitivi senza verifica in locale.",
+    "Il menu pubblicato non include fotografie del PDF per evitare di ripubblicare materiale senza verifica dei diritti."
+  ]
+}
