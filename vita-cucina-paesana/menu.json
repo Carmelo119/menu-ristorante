@@ -1,0 +1,15 @@
+{
+  "nome": "Vita, cucina paesana",
+  "indirizzo": "Vedi posizione su Google Maps",
+  "maps": "https://www.google.com/maps/place/Vita,+cucina+paesana/@37.1009939,15.1187175,17z/",
+  "orari": "Da definire",
+  "contatti": "Da definire",
+  "categorie": [
+    {
+      "nome": "Menu",
+      "prodotti": [
+        {"nome": "Menu e prezzi da completare", "prezzo": ""}
+      ]
+    }
+  ]
+}
