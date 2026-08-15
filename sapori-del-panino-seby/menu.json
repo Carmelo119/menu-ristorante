@@ -1,0 +1,28 @@
+{
+  "restaurant": {
+    "name": "I Sapori del Panino da Seby",
+    "category": "Paninoteca",
+    "address": "Piazzale Largo Gandhi, Solarino (SR)",
+    "phone": "+39 334 336 3086",
+    "delivery": "Gratuita a Floridia e Solarino",
+    "closedDay": "martedì",
+    "source": "immagine menu fornita dall'utente",
+    "lastVerified": "2026-08-15"
+  },
+  "sections": {
+    "panini": "24 proposte con prezzi da 3,00 € a 7,00 €; ingredienti riportati quando presenti nell'immagine.",
+    "extra": [
+      {"name":"Vaschetta patatine*","price":"2,00 €"},
+      {"name":"Vaschetta patatine* + formaggio","price":"2,50 €"},
+      {"name":"Vaschetta carne / pollo o altro","price":"6,00 €"},
+      {"name":"Piatti misti","price":"N.Q. da 10,00 € in su"}
+    ],
+    "bevande": ["Acqua naturale / frizzante", "Coca-Cola, Fanta, Sprite, Chinotto", "Estathé pesca / limone", "Red Bull", "Bacardi Breezer", "Dreher piccola / grande / lemon", "Tennent's", "Heineken piccola / grande", "Birra dello Stretto piccola / grande", "Nastro Azzurro piccola", "Moretti piccola / grande", "Ceres", "Corona"]
+  },
+  "notes": [
+    "I prezzi delle bevande non sono leggibili nell'immagine fornita.",
+    "L'immagine indica che alcuni prodotti possono essere surgelati e che alcune pietanze possono contenere tracce di allergeni.",
+    "La voce iniziale 'Con patatine*' è stata mantenuta come proposta separata perché compare come prima riga del menu.",
+    "L'indirizzo è stato ricavato dal materiale allegato e dal link Google Maps; verificare la denominazione stradale prima della pubblicazione definitiva."
+  ]
+}
