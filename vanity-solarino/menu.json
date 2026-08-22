@@ -178,7 +178,7 @@
   "Informazioni": [
     {"name":"Base pizza senza glutine*","description":"","price":"3,50 €"},
     {"name":"Coperto","description":"","price":"2,00 €"},
-    {"name":"Allergeni","description":"Glutine, crostacei, uova, pesce, arachidi, soia, latte e derivati, frutta a guscio, sedano, senape, sesamo, anidride solforosa, lupini, molluschi. Gli allergeni sono indicati nel menu originale in grassetto.","price":""},
+    {"name":"Allergeni","description":"Glutine, crostacei, uova, pesce, arachidi, soia, latte e derivati, frutta a guscio, sedano, senape, sesamo, anidride solforosa, lupini, molluschi. Gli allergeni sono indicati nel menu.","price":""},
     {"name":"Giorni di chiusura","description":"Martedì e mercoledì","price":""},
     {"name":"Indirizzo","description":"Piazza IV Novembre, 12 — Solarino","price":""},
     {"name":"Telefono","description":"0931 922596","price":""}
