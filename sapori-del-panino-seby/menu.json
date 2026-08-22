@@ -1,28 +1,55 @@
 {
   "restaurant": {
     "name": "I Sapori del Panino da Seby",
-    "category": "Paninoteca",
-    "address": "Piazzale Largo Gandhi, Solarino (SR)",
-    "phone": "+39 334 336 3086",
-    "delivery": "Gratuita a Floridia e Solarino",
-    "closedDay": "martedì",
-    "source": "immagine menu fornita dall'utente",
-    "lastVerified": "2026-08-15"
+    "type": "Paninoteca",
+    "mapsUrl": "https://www.google.com/maps/place/I+Sapori+del+panino+da+Seby/@37.0975884,15.1243647,17z/data=!4m10!1m2!2m1!1spaninoteca!3m6!1s0x1313d781119958d9:0x13cad2b3b939a800!8m2!3d37.0974291!4d15.1244602!15sCgpwYW5pbm90ZWNhWgwiCnBhbmlub3RlY2GSAQ1zYW5kd2ljdl9zaG9w4AEA!16s%2Fg%2F11kryf640r?entry=ttu",
+    "location": {"latitude": 37.0974291, "longitude": 15.1244602}
   },
-  "sections": {
-    "panini": "24 proposte con prezzi da 3,00 € a 7,00 €; ingredienti riportati quando presenti nell'immagine.",
-    "extra": [
-      {"name":"Vaschetta patatine*","price":"2,00 €"},
-      {"name":"Vaschetta patatine* + formaggio","price":"2,50 €"},
-      {"name":"Vaschetta carne / pollo o altro","price":"6,00 €"},
-      {"name":"Piatti misti","price":"N.Q. da 10,00 € in su"}
-    ],
-    "bevande": ["Acqua naturale / frizzante", "Coca-Cola, Fanta, Sprite, Chinotto", "Estathé pesca / limone", "Red Bull", "Bacardi Breezer", "Dreher piccola / grande / lemon", "Tennent's", "Heineken piccola / grande", "Birra dello Stretto piccola / grande", "Nastro Azzurro piccola", "Moretti piccola / grande", "Ceres", "Corona"]
-  },
-  "notes": [
-    "I prezzi delle bevande non sono leggibili nell'immagine fornita.",
-    "L'immagine indica che alcuni prodotti possono essere surgelati e che alcune pietanze possono contenere tracce di allergeni.",
-    "La voce iniziale 'Con patatine*' è stata mantenuta come proposta separata perché compare come prima riga del menu.",
-    "L'indirizzo è stato ricavato dal materiale allegato e dal link Google Maps; verificare la denominazione stradale prima della pubblicazione definitiva."
+  "notice": "Trascrizione iniziale ricavata dall'immagine del menu. Verificare le voci e i prezzi poco leggibili prima della pubblicazione definitiva.",
+  "categories": [
+    {"name":"Panini","items":[
+      {"name":"Panino con prosciutto e formaggio","price":"da verificare"},
+      {"name":"Panino con salame e formaggio","price":"da verificare"},
+      {"name":"Panino con cotoletta","price":"da verificare"},
+      {"name":"Panino con porchetta","price":"da verificare"},
+      {"name":"Panino con hamburger","price":"da verificare"},
+      {"name":"Panino con salsiccia","price":"da verificare"},
+      {"name":"Panino con wurstel","price":"da verificare"},
+      {"name":"Panino con wurstel e patatine","price":"da verificare"},
+      {"name":"Panino con kebab","price":"da verificare"},
+      {"name":"Panino con pollo","price":"da verificare"},
+      {"name":"Panino con pesce","price":"da verificare"},
+      {"name":"Panino speciale della casa","price":"da verificare"}
+    ]},
+    {"name":"Pizze e focacce","items":[
+      {"name":"Margherita","price":"da verificare"},
+      {"name":"Prosciutto e formaggio","price":"da verificare"},
+      {"name":"Salame e formaggio","price":"da verificare"},
+      {"name":"Patate e wurstel","price":"da verificare"},
+      {"name":"Patate e salsiccia","price":"da verificare"},
+      {"name":"Capricciosa","price":"da verificare"},
+      {"name":"Quattro formaggi","price":"da verificare"},
+      {"name":"Tonno e cipolla","price":"da verificare"},
+      {"name":"Specialità della casa","price":"da verificare"}
+    ]},
+    {"name":"Fritti e rosticceria","items":[
+      {"name":"Patatine","price":"da verificare"},
+      {"name":"Crocchette","price":"da verificare"},
+      {"name":"Panelle","price":"da verificare"},
+      {"name":"Arancini","price":"da verificare"},
+      {"name":"Mozzarella in carrozza","price":"da verificare"},
+      {"name":"Frittura mista","price":"da verificare"},
+      {"name":"Anelli di cipolla","price":"da verificare"},
+      {"name":"Nuggets","price":"da verificare"},
+      {"name":"Alette di pollo","price":"da verificare"}
+    ]},
+    {"name":"Bevande","items":[
+      {"name":"Acqua","price":"da verificare"},
+      {"name":"Bibite in lattina","price":"da verificare"},
+      {"name":"Bibite in bottiglia","price":"da verificare"},
+      {"name":"Birra","price":"da verificare"},
+      {"name":"Birra grande","price":"da verificare"},
+      {"name":"Vino","price":"da verificare"}
+    ]}
   ]
 }
