@@ -1,0 +1,186 @@
+{
+  "Pizze Tradizionali": [
+    {"name":"Russa","description":"salsa, olio evo","price":"3,50 €"},
+    {"name":"Biancaneve","description":"mozzarella","price":"4,50 €"},
+    {"name":"Margherita","description":"salsa, mozzarella, olio evo","price":"5,00 €"},
+    {"name":"Chips","description":"salsa, mozzarella, patatine*","price":"6,50 €"},
+    {"name":"Giuseppe","description":"salsa, provola affumicata","price":"6,50 €"},
+    {"name":"Napoli","description":"salsa, bufala, olio evo","price":"6,50 €"},
+    {"name":"Tonnara","description":"salsa, mozzarella, tonno, cipolla","price":"8,00 €"},
+    {"name":"Norma","description":"salsa, mozzarella, melanzane fritte, ricotta salata","price":"7,00 €"},
+    {"name":"Ortolana","description":"mozzarella, ciliegino, melanzane, zucchine, scaglie di grana, pangrattato","price":"8,00 €"},
+    {"name":"Patatosa","description":"salsa, mozzarella, salsiccia, patate al forno","price":"8,50 €"},
+    {"name":"5 Formaggi","description":"mozzarella, gorgonzola, svizzero, provola affumicata, parmigiano","price":"9,00 €"},
+    {"name":"Parmigiana","description":"salsa, mozzarella, prosciutto cotto, melanzane fritte, uovo, scaglie di grana","price":"9,00 €"},
+    {"name":"4 Stagioni","description":"salsa, mozzarella, prosciutto cotto, funghi freschi, carciofi, olive nere","price":"9,00 €"},
+    {"name":"Piccantina","description":"salsa, mozzarella, salame piccante, salsiccia, provola affumicata","price":"9,00 €"},
+    {"name":"Capricciosa","description":"salsa, mozzarella, prosciutto cotto, funghi freschi, uovo, piselli*, olive nere","price":"9,00 €"},
+    {"name":"007","description":"salsa, mozzarella, prosciutto cotto, funghi freschi, uovo, piselli*, würstel","price":"9,50 €"},
+    {"name":"Salmone e Gamberi","description":"salsa, mozzarella, panna, salmone, gamberetti*","price":"11,00 €"},
+    {"name":"Calzone al Prosciutto","description":"salsa, mozzarella, prosciutto cotto","price":"6,50 €"},
+    {"name":"Calzone Rustico","description":"mozzarella, salsiccia, cipolla, patate al forno","price":"7,50 €"}
+  ],
+  "Pizze Vanity": [
+    {"name":"Joy","description":"mozzarella, bufala, pesto di pistacchio, funghi freschi, speck, granella di pistacchio","price":"11,00 €"},
+    {"name":"Flambee","description":"mozzarella, pancetta affumicata, provola affumicata, cipolla, patate al forno, granella di noci","price":"11,00 €"},
+    {"name":"Giuliese","description":"bufala, crema di zucca, salsiccia, funghi porcini","price":"11,00 €"},
+    {"name":"Montecarlo","description":"bufala, funghi porcini, radicchio, speck","price":"10,00 €"},
+    {"name":"Trento","description":"salsa, mozzarella, porcini, prosciutto crudo","price":"9,00 €"},
+    {"name":"Parigi","description":"salsa, mozzarella, bresaola, rucola, scaglie di grana, olio evo","price":"9,00 €"},
+    {"name":"Londra","description":"salsa, bufala, prosciutto crudo, rucola, scaglie di grana, olio evo","price":"9,00 €"}
+  ],
+  "Pizze 50 cm": [
+    {"name":"Russa 50 cm","description":"salsa, olio evo","price":"7,00 €"},
+    {"name":"Biancaneve 50 cm","description":"mozzarella","price":"9,00 €"},
+    {"name":"Margherita 50 cm","description":"salsa, mozzarella, olio evo","price":"10,00 €"},
+    {"name":"Chips 50 cm","description":"salsa, mozzarella, patatine*","price":"13,00 €"},
+    {"name":"Giuseppe 50 cm","description":"salsa, provola affumicata","price":"13,00 €"},
+    {"name":"Napoli 50 cm","description":"salsa, bufala, olio evo","price":"13,00 €"},
+    {"name":"Popeye 50 cm","description":"salsa, mozzarella, panna, spinaci*","price":"13,00 €"},
+    {"name":"Tonnara 50 cm","description":"salsa, mozzarella, tonno, cipolla*","price":"13,00 €"},
+    {"name":"Norma 50 cm","description":"salsa, mozzarella, melanzane fritte, ricotta salata","price":"15,00 €"},
+    {"name":"Solarino 50 cm","description":"salsa, mozzarella, pomodori secchi, acciughe, olive nere","price":"15,00 €"},
+    {"name":"Ortolana 50 cm","description":"mozzarella, ciliegino, melanzane, zucchine, grana, pangrattato","price":"14,00 €"},
+    {"name":"Patatosa 50 cm","description":"salsa, mozzarella, salsiccia, patate al forno","price":"15,00 €"},
+    {"name":"5 Formaggi 50 cm","description":"mozzarella, gorgonzola, svizzero, provola affumicata, grana","price":"16,00 €"},
+    {"name":"Parmigiana 50 cm","description":"salsa, mozzarella, prosciutto cotto, melanzane fritte, uovo, scaglie di grana","price":"16,00 €"},
+    {"name":"4 Stagioni 50 cm","description":"salsa, mozzarella, prosciutto cotto, funghi freschi, carciofi, olive nere","price":"17,00 €"},
+    {"name":"Piccantina 50 cm","description":"salsa, mozzarella, salame piccante, salsiccia, provola affumicata","price":"16,00 €"},
+    {"name":"Capricciosa 50 cm","description":"salsa, mozzarella, prosciutto cotto, funghi freschi, uovo, piselli*, olive nere","price":"17,00 €"},
+    {"name":"007 50 cm","description":"salsa, mozzarella, prosciutto cotto, funghi freschi, uovo, piselli*, würstel","price":"17,00 €"},
+    {"name":"Salmone e Gamberi 50 cm","description":"salsa, mozzarella, panna, salmone, gamberetti*","price":"17,00 €"},
+    {"name":"Frutti di Mare 50 cm","description":"salsa, mozzarella, polpo*, calamari*, gamberetti*, cozze*, olio evo, prezzemolo","price":"19,00 €"},
+    {"name":"Calzone al Prosciutto 50 cm","description":"salsa, mozzarella, prosciutto cotto","price":"11,00 €"},
+    {"name":"Calzone Rustico 50 cm","description":"mozzarella, salsiccia, cipolla*, patate al forno","price":"7,00 €"}
+  ],
+  "Pizze Vanity 50 cm": [
+    {"name":"Joy 50 cm","description":"mozzarella, bufala, pesto di pistacchio, funghi freschi, speck, granella di pistacchio","price":"20,00 €"},
+    {"name":"Flambee 50 cm","description":"mozzarella, pancetta affumicata, provola affumicata, cipolla*, patate al forno, granella di noci","price":"20,00 €"},
+    {"name":"Giuliese 50 cm","description":"bufala, crema di zucca, salsiccia, funghi porcini, songino","price":"20,00 €"},
+    {"name":"Sfiziosa 50 cm","description":"bufala, mortadella, songino, capuliato, granella di pistacchio","price":"17,00 €"},
+    {"name":"Trento 50 cm","description":"salsa, mozzarella, porcini, prosciutto crudo","price":"18,00 €"},
+    {"name":"Montecarlo 50 cm","description":"bufala, funghi porcini, radicchio, speck","price":"18,00 €"},
+    {"name":"Parigi 50 cm","description":"salsa, mozzarella, bresaola, rucola, scaglie di grana, olio evo","price":"18,00 €"},
+    {"name":"Londra 50 cm","description":"salsa, mozzarella, prosciutto crudo, rucola, scaglie di grana, olio evo","price":"18,00 €"},
+    {"name":"Gruppo Estivo 50 cm","description":"salsa, mozzarella, porchetta, funghi freschi, svizzero, olive verdi","price":"18,00 €"}
+  ],
+  "Pizzoli": [
+    {"name":"Ferla","description":"carne equina, cipolla*, svizzero","price":"16,00 € / mini 9,00 €"},
+    {"name":"Buscemi","description":"pollo, svizzero, lattuga","price":"16,00 € / mini 9,00 €"},
+    {"name":"Joyfull","description":"bufala, pesto di pistacchio, funghi freschi, speck, granella di pistacchio","price":"17,00 € / mini 10,00 €"},
+    {"name":"Sortino","description":"broccoli*, mozzarella, salsiccia, capuliato","price":"15,00 € / mini 9,00 €"},
+    {"name":"Rosolini","description":"mozzarella, gorgonzola, svizzero, provola affumicata, grana, porcini, rucola","price":"15,00 € / mini 9,00 €"},
+    {"name":"Ciarruco","description":"mortadella, provola affumicata, olive verdi, capuliato","price":"13,00 € / mini 8,00 €"},
+    {"name":"Pantalica","description":"bresaola, mozzarella, rucola, scaglie di grana","price":"13,00 € / mini 8,00 €"},
+    {"name":"Climiti","description":"salame piccante, svizzero","price":"13,00 € / mini 8,00 €"},
+    {"name":"Nebrodi","description":"porchetta, mozzarella, funghi freschi","price":"13,00 € / mini 8,00 €"},
+    {"name":"Anapo","description":"prosciutto crudo, provola affumicata, lattuga, scaglie di grana","price":"13,00 € / mini 8,00 €"},
+    {"name":"Vendicari","description":"prosciutto cotto, provola affumicata, lattuga, scaglie di grana","price":"13,00 € / mini 8,00 €"}
+  ],
+  "Bread": [
+    {"name":"Kebab Bread","description":"kebab*, svizzero, cipolla*, ciliegino, lattuga, salsa yogurt","price":"8,00 €"},
+    {"name":"Bresaola Bread","description":"Philadelphia, rucola, bresaola, scaglie di grana","price":"7,00 €"},
+    {"name":"Joy Bread","description":"bufala, pesto di pistacchio, funghi freschi, speck, granella di pistacchio","price":"8,00 €"},
+    {"name":"Meat Bread","description":"carne equina, cipolla*, svizzero, maionese","price":"7,50 €"},
+    {"name":"Chicken Bread","description":"pollo, svizzero, lattuga, maionese","price":"7,50 €"},
+    {"name":"Pork Bread","description":"porchetta, mozzarella, olive verdi","price":"7,00 €"},
+    {"name":"Disney Bread","description":"würstel, patatine*, ketchup, maionese","price":"4,50 €"}
+  ],
+  "Insalate": [
+    {"name":"Insalata Mista","description":"lattuga, radicchio, ciliegino, mais, rucola, bufala","price":"8,00 €"},
+    {"name":"Insalata di Tonno","description":"lattuga, mais, ciliegino, tonno","price":"8,00 €"},
+    {"name":"Insalata di Carne","description":"lattuga, radicchio, ciliegino, rucola, carne equina","price":"8,50 €"},
+    {"name":"Insalata di Pollo","description":"lattuga, radicchio, ciliegino, rucola, pollo","price":"8,50 €"}
+  ],
+  "Focacce": [
+    {"name":"Semplice","description":"olio, origano, scaglie di grana","price":"3,00 €"},
+    {"name":"Quadrifoglio","description":"rucola, ciliegino, scaglie di grana, glassa di aceto balsamico","price":"6,50 €"},
+    {"name":"Vanity","description":"bufala, lattuga, prosciutto crudo, scaglie di grana","price":"8,00 €"}
+  ],
+  "Le Quadre": [
+    {"name":"Quadra Chips","description":"salsa, mozzarella, patatine*; cornicione ripieno di würstel","price":"7,50 €"},
+    {"name":"Quadra Zucca","description":"crema di zucca, bufala, funghi freschi, scaglie di grana; cornicione ripieno di provola affumicata","price":"10,00 €"},
+    {"name":"Quadra Paola","description":"mozzarella, pancetta, funghi freschi, scaglie di grana; cornicione ripieno di crema di zucca","price":"10,00 €"}
+  ],
+  "Vota Vota": [
+    {"name":"Appetitoso","description":"salsa, mozzarella, porchetta, svizzero, olive verdi","price":"8,00 €"},
+    {"name":"Fumoso","description":"salsa, mozzarella, prosciutto cotto, melanzane, uovo, scaglie di grana","price":"8,00 €"},
+    {"name":"Goloso","description":"salsa, prosciutto cotto, provola affumicata","price":"8,00 €"},
+    {"name":"Lussuoso","description":"pollo, svizzero, lattuga, maionese, ketchup","price":"8,00 €"}
+  ],
+  "Fritti": [
+    {"name":"Dippers*","description":"","price":"3,50 €"},
+    {"name":"Patatine Fritte*","description":"","price":"2,50 €"},
+    {"name":"7 Crocchette di Patate*","description":"","price":"3,00 €"},
+    {"name":"7 Mozzarelline Panate*","description":"","price":"3,50 €"},
+    {"name":"7 Olive Ascolane*","description":"","price":"3,50 €"},
+    {"name":"7 Anelli di Cipolla*","description":"","price":"3,50 €"},
+    {"name":"Misto Fritto","description":"3 olive ascolane, 3 crocchette di patate, 3 mozzarelline, 3 anelli di cipolla, patatine","price":"9,00 €"}
+  ],
+  "Pizza Fritta": [
+    {"name":"Oro Rosso","description":"salsa, bufala, olio evo, basilico","price":"5,50 €"},
+    {"name":"Oro Verde","description":"bufala, pesto di pistacchio, scaglie di mandorle","price":"7,50 €"}
+  ],
+  "Sweet Vanity": [
+    {"name":"Pistacchio pizza","description":"","price":"9,00 €"},
+    {"name":"Pistacchio pizzolo","description":"","price":"12,00 €"},
+    {"name":"Nutella pizza","description":"","price":"8,00 €"},
+    {"name":"Nutella pizzolo","description":"","price":"11,00 €"},
+    {"name":"Dolce della Casa*","description":"","price":"4,00 €"}
+  ],
+  "Bevande": [
+    {"name":"Acqua 0,50 cl","description":"","price":"1,00 €"},
+    {"name":"Acqua 1 L","description":"","price":"2,50 €"},
+    {"name":"Coca-Cola 1,5 L","description":"","price":"4,00 €"},
+    {"name":"Coca-Cola / Coca-Cola Zero 0,33 cl","description":"","price":"2,00 €"},
+    {"name":"Fanta / Sprite / Chinotto 0,33 cl","description":"","price":"2,00 €"},
+    {"name":"Lemon Soda 0,33 cl","description":"","price":"2,50 €"},
+    {"name":"Estathè Limone / Pesca 0,33 cl","description":"","price":"2,50 €"},
+    {"name":"Birra dello Stretto 33 cl","description":"","price":"3,50 €"},
+    {"name":"Heineken media / piccola","description":"","price":"5,00 € / 2,50 €"},
+    {"name":"Nastro Azzurro media / piccola","description":"","price":"5,00 € / 2,50 €"},
+    {"name":"Moretti media / piccola","description":"","price":"5,00 € / 2,50 €"},
+    {"name":"Beck's 33 cl","description":"","price":"3,00 €"},
+    {"name":"Ceres Strong Ale 7,7% vol 33 cl","description":"","price":"3,50 €"},
+    {"name":"Corona 33 cl","description":"","price":"3,50 €"},
+    {"name":"Tennent's 33 cl","description":"","price":"3,50 €"},
+    {"name":"Rossa 33 cl","description":"","price":"3,50 €"},
+    {"name":"Peroni senza glutine 33 cl","description":"","price":"3,00 €"},
+    {"name":"Aperol Spritz","description":"","price":"5,00 €"},
+    {"name":"Campari Spritz","description":"","price":"5,00 €"},
+    {"name":"Limoncello Spritz","description":"","price":"5,00 €"},
+    {"name":"Gin Tonic","description":"","price":"7,00 €"},
+    {"name":"Negroni","description":"","price":"7,00 €"},
+    {"name":"Mojito","description":"","price":"7,00 €"},
+    {"name":"Japanese Ice Tea","description":"","price":"7,00 €"},
+    {"name":"Amaro mezzo","description":"","price":"2,50 €"},
+    {"name":"Amaro intero","description":"","price":"4,00 €"},
+    {"name":"Caffè","description":"","price":"1,00 €"}
+  ],
+  "Cornicioni Ripieni": [
+    {"name":"Mozzarella","description":"","price":"2,00 €"},
+    {"name":"Würstel","description":"","price":"2,00 €"},
+    {"name":"Prosciutto Cotto","description":"","price":"2,50 €"},
+    {"name":"Provola Affumicata","description":"","price":"2,50 €"},
+    {"name":"Pesto di Pistacchio","description":"","price":"3,00 €"},
+    {"name":"Crema di Zucca","description":"","price":"3,00 €"},
+    {"name":"Philadelphia","description":"","price":"3,00 €"},
+    {"name":"Crema Dolce","description":"","price":"3,00 €"}
+  ],
+  "Supplementi": [
+    {"name":"Supplementi 0,50 €","description":"olive nere, cipolla","price":"0,50 €"},
+    {"name":"Supplementi 1,00 €","description":"mozzarella, patatine*, uovo, piselli*, würstel, acciughe, melanzane, zucchine, grana, ricotta salata, panna, spinaci*, broccoli*, rucola, ciliegino, pomodoro secco, songino, capuliato, olive verdi","price":"1,00 €"},
+    {"name":"Supplementi 1,50 €","description":"radicchio, funghi freschi, carciofi, svizzero, gorgonzola, ricotta, granella di pistacchio, prosciutto cotto, salame piccante, mortadella, salsiccia, tonno","price":"1,50 €"},
+    {"name":"Supplementi 2,00 €","description":"provola affumicata, prosciutto crudo, bresaola, speck, porchetta, pancetta","price":"2,00 €"},
+    {"name":"Supplementi 2,50 €","description":"mozzarella di bufala, crema di zucca, funghi porcini, Philadelphia, pesto di pistacchio, gamberetti*","price":"2,50 €"},
+    {"name":"Supplementi 3,00 €","description":"kebab*, pollo, carne equina, salmone","price":"3,00 €"}
+  ],
+  "Informazioni": [
+    {"name":"Base pizza senza glutine*","description":"","price":"3,50 €"},
+    {"name":"Coperto","description":"","price":"2,00 €"},
+    {"name":"Allergeni","description":"Glutine, crostacei, uova, pesce, arachidi, soia, latte e derivati, frutta a guscio, sedano, senape, sesamo, anidride solforosa, lupini, molluschi. Gli allergeni sono indicati nel menu.","price":""},
+    {"name":"Giorni di chiusura","description":"Martedì e mercoledì","price":""},
+    {"name":"Indirizzo","description":"Piazza IV Novembre, 12 — Solarino","price":""},
+    {"name":"Telefono","description":"0931 922596","price":""}
+  ]
+}
