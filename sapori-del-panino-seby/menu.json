@@ -2,54 +2,19 @@
   "restaurant": {
     "name": "I Sapori del Panino da Seby",
     "type": "Paninoteca",
+    "city": "Solarino",
+    "address": "Piazzale Largo Gandhi, Solarino (SR)",
+    "phone": "3343363086",
+    "closedDay": "Martedì",
+    "delivery": "Consegna a domicilio gratuita a Floridia e Solarino",
     "mapsUrl": "https://www.google.com/maps/place/I+Sapori+del+panino+da+Seby/@37.0975884,15.1243647,17z/data=!4m10!1m2!2m1!1spaninoteca!3m6!1s0x1313d781119958d9:0x13cad2b3b939a800!8m2!3d37.0974291!4d15.1244602!15sCgpwYW5pbm90ZWNhWgwiCnBhbmlub3RlY2GSAQ1zYW5kd2ljdl9zaG9w4AEA!16s%2Fg%2F11kryf640r?entry=ttu",
     "location": {"latitude": 37.0974291, "longitude": 15.1244602}
   },
-  "notice": "Trascrizione iniziale ricavata dall'immagine del menu. Verificare le voci e i prezzi poco leggibili prima della pubblicazione definitiva.",
+  "notes": ["* Prodotto surgelato.", "Alcune pietanze possono contenere tracce di allergeni."],
   "categories": [
-    {"name":"Panini","items":[
-      {"name":"Panino con prosciutto e formaggio","price":"da verificare"},
-      {"name":"Panino con salame e formaggio","price":"da verificare"},
-      {"name":"Panino con cotoletta","price":"da verificare"},
-      {"name":"Panino con porchetta","price":"da verificare"},
-      {"name":"Panino con hamburger","price":"da verificare"},
-      {"name":"Panino con salsiccia","price":"da verificare"},
-      {"name":"Panino con wurstel","price":"da verificare"},
-      {"name":"Panino con wurstel e patatine","price":"da verificare"},
-      {"name":"Panino con kebab","price":"da verificare"},
-      {"name":"Panino con pollo","price":"da verificare"},
-      {"name":"Panino con pesce","price":"da verificare"},
-      {"name":"Panino speciale della casa","price":"da verificare"}
-    ]},
-    {"name":"Pizze e focacce","items":[
-      {"name":"Margherita","price":"da verificare"},
-      {"name":"Prosciutto e formaggio","price":"da verificare"},
-      {"name":"Salame e formaggio","price":"da verificare"},
-      {"name":"Patate e wurstel","price":"da verificare"},
-      {"name":"Patate e salsiccia","price":"da verificare"},
-      {"name":"Capricciosa","price":"da verificare"},
-      {"name":"Quattro formaggi","price":"da verificare"},
-      {"name":"Tonno e cipolla","price":"da verificare"},
-      {"name":"Specialità della casa","price":"da verificare"}
-    ]},
-    {"name":"Fritti e rosticceria","items":[
-      {"name":"Patatine","price":"da verificare"},
-      {"name":"Crocchette","price":"da verificare"},
-      {"name":"Panelle","price":"da verificare"},
-      {"name":"Arancini","price":"da verificare"},
-      {"name":"Mozzarella in carrozza","price":"da verificare"},
-      {"name":"Frittura mista","price":"da verificare"},
-      {"name":"Anelli di cipolla","price":"da verificare"},
-      {"name":"Nuggets","price":"da verificare"},
-      {"name":"Alette di pollo","price":"da verificare"}
-    ]},
-    {"name":"Bevande","items":[
-      {"name":"Acqua","price":"da verificare"},
-      {"name":"Bibite in lattina","price":"da verificare"},
-      {"name":"Bibite in bottiglia","price":"da verificare"},
-      {"name":"Birra","price":"da verificare"},
-      {"name":"Birra grande","price":"da verificare"},
-      {"name":"Vino","price":"da verificare"}
-    ]}
+    {"name":"I nostri panini","items":[
+      {"name":"Con patatine*","price":"€ 3,00"},{"name":"Wurstel","price":"€ 3,00"},{"name":"Caprese","price":"€ 3,00"},{"name":"Carne di cavallo","price":"€ 5,00"},{"name":"Petto di pollo","price":"€ 5,00"},{"name":"Cosciotto + pancetta","price":"€ 5,00"},{"name":"Porchetta","price":"€ 4,00"},{"name":"Salsiccia","price":"€ 5,00"},{"name":"Valdostana di carne","price":"€ 5,00"},{"name":"Valdostana di pollo","price":"€ 5,00"},{"name":"Hamburger","price":"€ 5,00"},{"name":"Cordon bleu","price":"€ 5,00"},{"name":"Polpetta di cavallo","description":"Aglio, prezzemolo, mollica, uovo, pepe nero.","price":"€ 5,00"},{"name":"Polpetta di cavallo Philadelphia","price":"€ 5,00"},{"name":"Polpetta di cavallo pistacchio","price":"€ 5,00"},{"name":"Iris","description":"Carne di vitello, Philadelphia, pistacchio, cereali.","price":"€ 5,00"},{"name":"Pasticcio di pollo","description":"Ciliegino, olive, zucchine, salsa verdure.","price":"€ 7,00"},{"name":"Cosciotto speck","description":"Philadelphia, pistacchio, speck.","price":"€ 5,00"},{"name":"Capicollo","description":"Costata di maiale, salsa verdure.","price":"€ 5,00"},{"name":"Vegetariano","description":"Zucchine, Philadelphia, carotine, rucola.","price":"€ 5,00"},{"name":"Vegetariano + pollo / carne","price":"€ 5,00"},{"name":"Cannolo","description":"Pollo, Philadelphia, pistacchio.","price":"€ 7,00"},{"name":"Bacon","description":"Pollo, bacon, provola affumicata, pistacchio.","price":"€ 5,00"},{"name":"Limone","description":"Pollo impanato, limone.","price":"€ 5,00"},{"name":"Broccoli","description":"Salsiccia, pancetta, broccoli, provola affumicata.","price":"€ 5,00"},{"name":"Preparati vari","price":"€ 5,00"}]},
+    {"name":"Vaschette e piatti","items":[{"name":"Vaschetta patatine*","price":"€ 2,00"},{"name":"Vaschetta patatine* + formaggio","price":"€ 2,50"},{"name":"Vaschetta carne / pollo o altro","price":"€ 6,00"},{"name":"Piatti misti","price":"N.Q. da € 10,00 in su"}]},
+    {"name":"Bevande","items":[{"name":"Acqua naturale / frizzante"},{"name":"Coca, Fanta, Sprite, Chinotto"},{"name":"Estathé pesca / limone"},{"name":"Red Bull"},{"name":"Bacardi Breezer"},{"name":"Dreher piccola"},{"name":"Dreher grande"},{"name":"Dreher lemon"},{"name":"Tennent's"},{"name":"Heineken piccola"},{"name":"Heineken grande"},{"name":"Birra dello Stretto piccola"},{"name":"Birra dello Stretto grande"},{"name":"Nastro Azzurro piccola"},{"name":"Moretti piccola"},{"name":"Moretti grande"},{"name":"Ceres"},{"name":"Corona"}]}
   ]
 }
