@@ -3,43 +3,761 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#174d4a">
-<title>La Bella Sortino — Pizzeria Pizzoleria</title>
+<meta name="theme-color" content="#192f2d">
+<title>La Bella Sortino — Pizzeria Pizzoleria Solarino</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero"><div class="hero__inner"><p class="kicker">Solarino · Pizza da asporto</p><h1>La Bella<br><em>Sortino</em></h1><p class="tagline">Pizzeria · Pizzoleria</p><div class="meta"><span>Corso Italia, 2<br>96010 Solarino (SR)</span><a href="tel:+393803765510">380 376 5510</a></div><p class="delivery">Con una spesa minima di 20 €<br>consegna anche a Floridia</p></div></header>
-<nav class="nav" aria-label="Sezioni del menu"><a href="#pizze">Pizze</a><a href="#speciali">Speciali</a><a href="#pizzoli">Pizzoli</a><a href="#vota">Vota Vota</a><a href="#extra">Extra</a></nav>
+<header class="hero">
+  <div class="hero__inner">
+    <p class="kicker">Solarino · Pizza da asporto</p>
+    <h1>La Bella<br><em>Sortino</em></h1>
+    <p class="tagline">Pizzeria · Pizzoleria d'asporto</p>
+    <div class="meta">
+      <span class="meta-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="#d8a33e"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <a href="https://www.google.com/maps/place/La+Bella+Sortino+-+Pizzeria+Pizzoleria+Solarino+%7C+da+asporto/@37.1020961,15.1182205,17z/data=!3m1!4b1!4m6!3m5!1s0x1313d735142e11b1:0x3d7ee2b1640ca893!8m2!3d37.1020918!4d15.1207954!16s%2Fg%2F11q3bt3080!5m2!1e4!1e3?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Corso Italia, 2 · 96010 Solarino (SR)</a>
+      </span>
+      <span class="meta-item">
+        <a href="tel:+393803765510">380 376 5510</a>
+      </span>
+      <span class="meta-item">
+        <a href="tel:+393898245029">389 824 5029</a>
+      </span>
+    </div>
+
+    <div class="hero__actions">
+      <a href="https://wa.me/393803765510" target="_blank" rel="noopener noreferrer" class="btn-action btn-action--primary">
+        <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        WhatsApp
+      </a>
+      <a href="https://www.google.com/maps/place/La+Bella+Sortino+-+Pizzeria+Pizzoleria+Solarino+%7C+da+asporto/@37.1020961,15.1182205,17z/data=!3m1!4b1!4m6!3m5!1s0x1313d735142e11b1:0x3d7ee2b1640ca893!8m2!3d37.1020918!4d15.1207954!16s%2Fg%2F11q3bt3080!5m2!1e4!1e3?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn-action btn-action--outline">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        Google Maps
+      </a>
+      <a href="https://www.instagram.com/la_bella_sortino_pizzolleria/" target="_blank" rel="noopener noreferrer" class="btn-action btn-action--outline">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Instagram
+      </a>
+      <a href="https://www.facebook.com/p/La-bella-Sortino-100077087468778/" target="_blank" rel="noopener noreferrer" class="btn-action btn-action--outline">
+        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Facebook
+      </a>
+    </div>
+
+    <p class="delivery">Con una spesa minima di 20 €<br>consegna anche a Floridia</p>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Sezioni del menu">
+  <a href="#pizze">Pizze</a>
+  <a href="#speciali">Pizze Speciali</a>
+  <a href="#pizzoli">Pizzoli</a>
+  <a href="#vota">Vota Vota</a>
+  <a href="#extra">Dolci &amp; Extra</a>
+</nav>
+
 <main>
-<section class="section intro"><p class="kicker"></p><h2>Pizza, pizzolo<br>e sapori siciliani.</h2><p>Impasti, ingredienti siciliani e proposte da condividere.</p></section>
-<section class="section" id="pizze"><div class="section-head"><p class="kicker"></p><h2>Pizze</h2><p></p></div><div class="menu-list">
-<article><div><h3>Russa</h3><p>Pomodoro, origano, olio, basilico</p></div><strong>3,50 € <small>/ 10 € metro</small></strong></article>
-<article><div><h3>Margherita</h3><p>Pomodoro, mozzarella, origano, olio, basilico</p></div><strong>4 € <small>/ 14 € metro</small></strong></article>
-<article><div><h3>Capricciosa</h3><p>Pomodoro, mozzarella, piselli, prosciutto cotto, funghi freschi, olive</p></div><strong>7 € <small>/ 24 € metro</small></strong></article>
-<article><div><h3>4 Stagioni</h3><p>Pomodoro, mozzarella, prosciutto cotto, funghi freschi, carciofi, olive</p></div><strong>6,50 € <small>/ 24 € metro</small></strong></article>
-<article><div><h3>Parmigiana</h3><p>Pomodoro, mozzarella, melanzane fritte, uovo, prosciutto cotto, parmigiano</p></div><strong>7 € <small>/ 24 € metro</small></strong></article>
-<article><div><h3>Diavola</h3><p>Pomodoro, mozzarella, prosciutto cotto, piselli, funghi freschi, uovo, würstel</p></div><strong>7 € <small>/ 24 € metro</small></strong></article>
-<article><div><h3>Tonno</h3><p>Pomodoro, mozzarella, melanzane fritte, ricotta salata</p></div><strong>6 € <small>/ 20 € metro</small></strong></article>
-<article><div><h3>Romana</h3><p>Pomodoro, mozzarella, salame piccante</p></div><strong>5,50 € <small>/ 20 € metro</small></strong></article>
-<article><div><h3>Tonnara</h3><p>Pomodoro, mozzarella, tonno, cipolla fresca, olive</p></div><strong>6 € <small>/ 21 € metro</small></strong></article>
-<article><div><h3>Calzone</h3><p>Pomodoro, mozzarella, prosciutto cotto</p></div><strong>5,50 €</strong></article>
-<article><div><h3>Braccio di Ferro</h3><p>Pomodoro, mozzarella, prosciutto cotto, spinaci*, panna</p></div><strong>6 € <small>/ 21 € metro</small></strong></article>
-<article><div><h3>Genovese</h3><p>Pomodoro, provola affumicata</p></div><strong>5 € <small>/ 18 € metro</small></strong></article>
-<article><div><h3>Messina</h3><p>Pomodoro, mozzarella, acciughe, olive</p></div><strong>5,50 € <small>/ 20 € metro</small></strong></article>
-<article><div><h3>Buona Mey</h3><p>Bufala, bresaola, rucola, scaglie di grana</p></div><strong>7,50 € <small>/ 25 € metro</small></strong></article>
-<article><div><h3>Winnie the Pooh</h3><p>Pomodoro, mozzarella, patatine fritte*</p></div><strong>5,50 € <small>/ 18 € metro</small></strong></article>
-<article><div><h3>Boscaiola</h3><p>Mozzarella, salsiccia, pomodorino, funghi porcini, patate al forno</p></div><strong>7,50 € <small>/ 25 € metro</small></strong></article>
-<article><div><h3>Valdostana</h3><p>Pomodoro, mozzarella, funghi freschi, prosciutto crudo</p></div><strong>6,50 € <small>/ 22,50 € metro</small></strong></article>
-<article><div><h3>Vegetariana</h3><p>Pomodoro, mozzarella, zucchine, melanzane grigliate, peperoni, funghi freschi</p></div><strong>6,50 € <small>/ 22,50 € metro</small></strong></article>
-<article><div><h3>Caprese</h3><p>Mozzarella di bufala, ciliegino condito, origano, olio, basilico — tutto a crudo</p></div><strong>6 € <small>/ 20 € metro</small></strong></article>
-<article><div><h3>Biancaneve</h3><p>Mozzarella, origano, olio, basilico</p></div><strong>4 € <small>/ 13 € metro</small></strong></article>
-</div></section>
-<section class="section section--dark" id="speciali"><div class="section-head"><p class="kicker"></p><h2>Pizze speciali</h2></div><div class="menu-list">
-<article><div><h3>Cavallina</h3><p>Pomodoro, mozzarella, carne di cavallo, cipolla, svizzero</p></div><strong>7,50 € <small>/ 25 €</small></strong></article><article><div><h3>Vulcano</h3><p>Pomodoro, mozzarella, salame piccante, salsiccia, cipolla fresca</p></div><strong>7,50 € <small>/ 25 €</small></strong></article><article><div><h3>Broccolina</h3><p>Pomodoro, broccoletti, salsiccia, provola</p></div><strong>7,50 € <small>/ 25 €</small></strong></article><article><div><h3>Brontese</h3><p>Mozzarella, Philadelphia, pesto di pistacchio, speck, granella di pistacchio</p></div><strong>8,50 € <small>/ 28 €</small></strong></article><article><div><h3>Vellutata</h3><p>Mozzarella, pesto di pistacchio, pollo, scaglie di grana</p></div><strong>8,50 € <small>/ 28 €</small></strong></article><article><div><h3>Al salmone</h3><p>Pomodoro, mozzarella, salmone, spinaci, panna, provola</p></div><strong>7,50 € <small>/ 26 €</small></strong></article><article><div><h3>Chicken</h3><p>Mozzarella, pollo, pancetta, patate speziate, cipolla, provola affumicata</p></div><strong>8 € <small>/ 28,50 €</small></strong></article><article><div><h3>Brontola</h3><p>Mozzarella, ricotta, basilico, ciliegino, prosciutto crudo, granella di pistacchio</p></div><strong>7 € <small>/ 24 €</small></strong></article><article><div><h3>La Pia</h3><p>Mozzarella, pesto di pistacchio, ciliegino, grana, porchetta</p></div><strong>7,50 € <small>/ 25 €</small></strong></article><article><div><h3>Orobica</h3><p>Mozzarella, ricotta fresca, pesto di pistacchio, mortadella, granella di pistacchio</p></div><strong>8 € <small>/ 28 €</small></strong></article><article><div><h3>Zucca</h3><p>Crema di zucca, bufala, speck, rucola, scaglie di grana</p></div><strong>8,50 € <small>/ 29 €</small></strong></article><article><div><h3>Deliziosa</h3><p>Pomodoro, mozzarella, salsiccia, spinaci*, ricotta fresca</p></div><strong>7,50 € <small>/ 25 €</small></strong></article><article><div><h3>Gamberetti al pistacchio</h3><p>Mozzarella, pesto di pistacchio, gamberetti, zucchine, panna</p></div><strong>9 € <small>/ 30 €</small></strong></article><article><div><h3>Conacassè</h3><p>Pomodoro, provola affumicata, pomodoro condito, ’nduja</p></div><strong>7 € <small>/ 24 €</small></strong></article><article><div><h3>Porcina</h3><p>Pomodoro, mozzarella, provola affumicata, pancetta, funghi porcini, radicchio</p></div><strong>7,50 € <small>/ 25 €</small></strong></article><article><div><h3>Divino di Monte</h3><p>Cozze, vongole, calamari*, gamberetti, gamberone, prezzemolo, olio</p></div><strong>10 € <small>/ 33 €</small></strong></article><article><div><h3>Mediterranea</h3><p>Carne di cavallo, provola affumicata, svizzero, spinaci, cipolla</p></div><strong>8,50 € <small>/ 29 €</small></strong></article><article><div><h3>Calzone pesto pomodorotto</h3><p>Mozzarella, ricotta fresca, pomodoro, salame ungherese, provola, basilico</p></div><strong>6,50 €</strong></article><article><div><h3>Ligure</h3><p>Mozzarella, pesto genovese, zucchine, speck, mandorle tostate</p></div><strong>8 € <small>/ 28 €</small></strong></article><article><div><h3>Gamberetti</h3><p>Pomodoro, mozzarella, gamberetti*, funghi freschi, panna</p></div><strong>7,50 € <small>/ 26 €</small></strong></article></div></section>
-<section class="section" id="pizzoli"><div class="section-head"><p class="kicker"></p><h2>Specialità di Sortino</h2><p></p></div><div class="menu-list menu-list--columns">
-<article><div><h3>Zuccoso</h3><p>Crema di zucca, salsiccia, olive nere, provola affumicata</p></div><strong>12 €</strong></article><article><div><h3>Monticelli</h3><p>Finocchietto selvatico, porchetta, salsiccia, bufala</p></div><strong>13 €</strong></article><article><div><h3>Pastorella</h3><p>Svizzero, salsiccia, peperoni, cipolla*, funghi freschi</p></div><strong>11 €</strong></article><article><div><h3>Kaori</h3><p>Mozzarella, ciliegino, Philadelphia, crudo, rucola</p></div><strong>11 €</strong></article><article><div><h3>Broccolino</h3><p>Mozzarella, broccoletti, salsiccia, capuliato, olive nere</p></div><strong>11 €</strong></article><article><div><h3>Cotto</h3><p>Mozzarella, prosciutto cotto</p></div><strong>8 €</strong></article><article><div><h3>Piccanti</h3><p>Salame piccante, mozzarella, svizzero</p></div><strong>8,50 €</strong></article><article><div><h3>Paesano</h3><p>Philadelphia, mortadella, lattuga, ciliegino</p></div><strong>10,50 €</strong></article><article><div><h3>Parmigiano</h3><p>Pomodoro, mozzarella, prosciutto cotto, melanzane fritte, uovo, parmigiano</p></div><strong>11 €</strong></article><article><div><h3>Bresaola</h3><p>Philadelphia, bresaola</p></div><strong>9,50 €</strong></article><article><div><h3>Pantalea</h3><p>Mozzarella, stracciatella, svizzero, cipolla, funghi porcini</p></div><strong>11 €</strong></article><article><div><h3>Catanese</h3><p>Crema di cavallo, mozzarella, Philadelphia, pesto e granella di pistacchio</p></div><strong>13 €</strong></article><article><div><h3>Furia</h3><p>Mozzarella, carne di cavallo, svizzero, cipolla</p></div><strong>12 €</strong></article><article><div><h3>Pollaccio</h3><p>Mozzarella, pollo, Philadelphia, pesto di pistacchio, funghi porcini</p></div><strong>13 €</strong></article><article><div><h3>Val d’Anapo</h3><p>Mozzarella, provolone, patè di olive verdi, scaglie di grana</p></div><strong>11 €</strong></article><article><div><h3>Vegetariano</h3><p>Mozzarella, melanzane e zucchine grigliate, peperoni, pomodoro condito</p></div><strong>11 €</strong></article><article><div><h3>Al tonno</h3><p>Mozzarella, pomodoro a fette, tonno, cipolla</p></div><strong>10 €</strong></article><article><div><h3>Saporito</h3><p>Bufala, prosciutto crudo, funghi porcini</p></div><strong>10,50 €</strong></article><article><div><h3>Crudo</h3><p>Prosciutto crudo, provola affumicata</p></div><strong>8 €</strong></article><article><div><h3>Cinghiale</h3><p>Carne di cinghiale, svizzero, funghi porcini</p></div><strong>14 €</strong></article><article><div><h3>Capriolo</h3><p>Mozzarella, pomodoro a fette, lattuga</p></div><strong>8 €</strong></article><article><div><h3>Ungherese</h3><p>Salame ungherese, provola, rucola</p></div><strong>11 €</strong></article><article><div><h3>Fiorentina</h3><p>Ricotta fresca, spinaci, salsiccia, scaglie di grana</p></div><strong>12 €</strong></article><article><div><h3>Garganta</h3><p>Philadelphia, capuliato, prosciutto cotto</p></div><strong>8,50 €</strong></article></div></section>
-<section class="section section--accent" id="vota"><div class="section-head"><p class="kicker"></p><h2>Vota Vota</h2><p></p></div><div class="menu-list"> <article><div><h3>Vota 1</h3><p>Mozzarella, spinacini, prosciutto cotto, provola</p></div><strong>6 €</strong></article><article><div><h3>Vota 2</h3><p>Mozzarella, salsiccia, peperoni, cipolla</p></div><strong>8 €</strong></article><article><div><h3>Vota 3</h3><p>Mozzarella, salame piccante, svizzero</p></div><strong>7,50 €</strong></article><article><div><h3>Vota 4</h3><p>Mozzarella, pollo, Philadelphia, provola</p></div><strong>8 €</strong></article><article><div><h3>Vota 5</h3><p>Mozzarella, carne di cavallo, cipolla, svizzero</p></div><strong>8 €</strong></article><article><div><h3>Vota 6</h3><p>Broccoli, salsiccia, pecorino piccante</p></div><strong>8 €</strong></article><article><div><h3>Vota 7</h3><p>Mozzarella, porchetta, cipolla, funghi porcini, svizzero</p></div><strong>8 €</strong></article><article><div><h3>Vota 8</h3><p>Mozzarella, zucca, speck, cipolla, provola</p></div><strong>8,50 €</strong></article><article><div><h3>Vota 9</h3><p>Mozzarella, salame piccante, broccoletti, cipolla, provola, olive</p></div><strong>8,50 €</strong></article><article><div><h3>Vota 10</h3><p>Mozzarella, Philadelphia, rucola, crudo, grana, glassa di aceto balsamico</p></div><strong>8,50 €</strong></article><article><div><h3>Vota 11</h3><p>Mozzarella, pomodoro secco, acciughe, olive</p></div><strong>7 €</strong></article><article><div><h3>Vota 12</h3><p>Mozzarella, svizzero, provola affumicata, mortadella</p></div><strong>7 €</strong></article></div></section>
-<section class="section" id="extra"><div class="section-head"><p class="kicker"></p><h2>Dolci, fritti<br>& bevande</h2></div><div class="info-grid"><div><h3>Dolci</h3><p>Nutella — pizza 7 € / pizzolo 10 €</p><p>Pistacchio — pizza 8 € / pizzolo 11 €</p><p>Cioccolato bianco — pizza 8 € / pizzolo 11 €</p><p>Ricotta e amarena — pizza 8 € / pizzolo 11 €</p><p>Ricotta e cioccolato — pizza 8 € / pizzolo 11 €</p><p>Ricotta e miele — pizza 8 € / pizzolo 11 €</p><p>Crema di limone — pizza 7,50 € / pizzolo 9 €</p></div><div><h3>Antipasti</h3><p>Patatine fritte — 2,50 €</p><p>Patatine con buccia — 3 €</p><p>7 crocchette di patate — 3,50 €</p><p>7 crocchette di mozzarella — 3,50 €</p><p>7 olive ascolane — 3,50 €</p><p>7 anelli di cipolla — 3,50 €</p><h3>Bordo ripieno</h3><p>Ricotta fresca, Philadelphia, pesto di pistacchio — 2,50 €</p></div><div><h3>Bevande</h3><p>Acqua 0,5 L — 1,50 €</p><p>Coca-Cola, Fanta, Sprite, Chinotto 33 cl — 1,50 €</p><p>Tè pesca/limone, Lemon soda 33 cl — 1,50 €</p><p>Heineken, Nastro Azzurro, Moretti 33 cl — 2 €</p><p>Heineken, Nastro Azzurro, Beck’s, Moretti 66 cl — 3,50 €</p><p>Acqua 50 cl — 1 € · 100 cl — 1,50 €</p></div><div><h3>Misto fritto</h3><p>Piccolo: 3 olive, 3 anelli, 3 crocchette, 3 mozzarelline, patatine</p><strong>6 €</strong><p>Grande: 5 olive, 5 anelli, 5 crocchette, 5 mozzarelline, patatine</p><strong>10 €</strong><h3>Supplementi</h3><p>Fasce da 0,50 € a 3,50 € secondo ingrediente.</p><p>Base pizza senza glutine — 3 €</p></div></div></section>
-<section class="section footer-note"><p><strong>Consegna:</strong> con una spesa minima di 20 € anche a Floridia.</p><p><strong></strong>* Alcuni prodotti possono essere surgelati. Alcune pietanze possono contenere tracce di allergeni. Chiedi sempre conferma al personale.</p></section>
-</main><footer><span>La Bella Sortino · Corso Italia, 2 · Solarino</span><a href="tel:+393803765510">380 376 5510</a></footer>
-</body></html>
+<section class="section intro">
+  <p class="kicker">Autentica tradizione</p>
+  <h2>Pizza, pizzolo<br>e sapori siciliani.</h2>
+  <p>Impasti artigianali, materie prime selezionate e le vere specialità di Sortino preparate con passione.</p>
+</section>
+
+<!-- SEZIONE PIZZE -->
+<section class="section" id="pizze">
+  <div class="section-head">
+    <p class="kicker">Le classiche e calzoni</p>
+    <h2>Pizze</h2>
+    <span class="subnote">Disponibili anche nel formato al metro (dove indicato)</span>
+  </div>
+  <div class="menu-list">
+    <article>
+      <div>
+        <h3>Russa</h3>
+        <p>Pomodoro, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">3,50 €</span> <span class="price-sub">/ 11,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Margherita</h3>
+        <p>Pomodoro, mozzarella, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">5,00 €</span> <span class="price-sub">/ 16,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Capricciosa</h3>
+        <p>Pomodoro, mozzarella, piselli*, prosciutto cotto, funghi freschi, olive, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>4 Stagioni</h3>
+        <p>Pomodoro, mozzarella, prosciutto cotto, funghi freschi, carciofi, olive, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Parmigiana</h3>
+        <p>Pomodoro, mozzarella, melanzane fritte, uovo, prosciutto cotto, parmigiano, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>007</h3>
+        <p>Pomodoro, mozzarella, prosciutto cotto, piselli*, funghi freschi, uovo, würstel, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Norma</h3>
+        <p>Pomodoro, mozzarella, melanzane fritte, ricotta salata, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,50 €</span> <span class="price-sub">/ 21,50 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Diavola</h3>
+        <p>Pomodoro, mozzarella, salame piccante, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,00 €</span> <span class="price-sub">/ 20,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Tonnara</h3>
+        <p>Pomodoro, mozzarella, tonno, cipolla fresca, olive, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,50 €</span> <span class="price-sub">/ 21,50 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Calzone</h3>
+        <p>Pomodoro, mozzarella, prosciutto cotto, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Calzone Verde</h3>
+        <p>Mozzarella, spinaci*, prosciutto cotto</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Braccio di Ferro</h3>
+        <p>Pomodoro, mozzarella, prosciutto cotto, spinaci*, panna, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,50 €</span> <span class="price-sub">/ 21,50 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Giuseppe</h3>
+        <p>Pomodoro, provola affumicata, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">5,50 €</span> <span class="price-sub">/ 19,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Romana</h3>
+        <p>Pomodoro, mozzarella, acciughe, olive, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,00 €</span> <span class="price-sub">/ 21,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Rucolina</h3>
+        <p>Mozzarella di bufala, bresaola, rucola, scaglie di grana, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>San Daniele</h3>
+        <p>Pomodoro, mozzarella, prosciutto crudo, rucola, scaglie di grana, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,00 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>4 Formaggi</h3>
+        <p>Mozzarella, svizzero, provola affumicata, gorgonzola, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,00 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Winnie the Pooh</h3>
+        <p>Pomodoro, mozzarella, patatine fritte*, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,50 €</span> <span class="price-sub">/ 19,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Boscaiola</h3>
+        <p>Mozzarella, salsiccia, pomodorino, funghi porcini, patate al forno, olive, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Valdostana</h3>
+        <p>Pomodoro, mozzarella, funghi freschi, prosciutto crudo, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,00 €</span> <span class="price-sub">/ 23,50 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vegetariana</h3>
+        <p>Pomodoro, mozzarella, zucchine, melanzane grigliate, peperoni, funghi freschi, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,00 €</span> <span class="price-sub">/ 23,50 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Caprese</h3>
+        <p>Mozzarella, mozzarella di bufala, ciliegino condito, origano, olio, basilico (tutto a crudo)</p>
+      </div>
+      <div class="price-box"><span class="price-main">6,50 €</span> <span class="price-sub">/ 21,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Biancaneve</h3>
+        <p>Mozzarella, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">4,50 €</span> <span class="price-sub">/ 15,00 € metro</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- SEZIONE PIZZE SPECIALI -->
+<section class="section section--dark" id="speciali">
+  <div class="section-head">
+    <p class="kicker">Gourmet &amp; sfiziose</p>
+    <h2>Pizze speciali</h2>
+    <span class="subnote">Disponibili singole o in formato al metro</span>
+  </div>
+  <div class="menu-list">
+    <article>
+      <div>
+        <h3>Cavallina</h3>
+        <p>Pomodoro, mozzarella, carne di cavallo, cipolla*, svizzero</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vulcano</h3>
+        <p>Pomodoro, mozzarella, salame piccante, salsiccia, cipolla fresca, origano, olio, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Broccolina</h3>
+        <p>Pomodoro, broccoli*, salsiccia, provola</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Brontese</h3>
+        <p>Mozzarella, philadelphia, pesto di pistacchio, speck, granella di pistacchio</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,00 €</span> <span class="price-sub">/ 29,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vellutata</h3>
+        <p>Mozzarella, pesto di pistacchio, pollo, scaglie di grana</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,00 €</span> <span class="price-sub">/ 29,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Al Salmone</h3>
+        <p>Pomodoro, mozzarella, salmone, spinaci*, panna, provola</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 27,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Chicken</h3>
+        <p>Mozzarella, pollo, pancetta, patate speziate*, cipolla*, provola affumicata</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,00 €</span> <span class="price-sub">/ 29,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Ricottina</h3>
+        <p>Mozzarella, ricotta, basilico, ciliegino, crudo, granella di pistacchio</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>La Pig</h3>
+        <p>Mozzarella, pesto di pistacchio, ciliegino, scaglie di grana, porchetta, olio, basilico, origano</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Bronte</h3>
+        <p>Mozzarella, ricotta fresca, pesto di pistacchio, mortadella, granella di pistacchio</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span> <span class="price-sub">/ 28,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Zucca</h3>
+        <p>Crema di zucca, mozzarella di bufala, speck, rucola, scaglie di grana</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,50 €</span> <span class="price-sub">/ 29,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Deliziosa</h3>
+        <p>Pomodoro, mozzarella, salsiccia, spinaci*, ricotta fresca</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Gamberetti al Pistacchio</h3>
+        <p>Mozzarella, pesto di pistacchio, gamberetti*, zucchine, panna</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,50 €</span> <span class="price-sub">/ 30,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Conacassè</h3>
+        <p>Pomodoro, provola affumicata, pomodoro condito, ’nduja</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span> <span class="price-sub">/ 25,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Porcina</h3>
+        <p>Pomodoro, mozzarella, provola affumicata, pancetta, funghi porcini, radicchio</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 26,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Frutti di Mare</h3>
+        <p>Pomodoro, cozze*, vongole*, calamari*, gamberetti*, gamberoni*, prezzemolo, olio</p>
+      </div>
+      <div class="price-box"><span class="price-main">10,00 €</span> <span class="price-sub">/ 33,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Mediterranea</h3>
+        <p>Carne di cavallo, provola affumicata, svizzero, spinaci*, cipolla*</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,00 €</span> <span class="price-sub">/ 29,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Calzone Napoletano Fritto</h3>
+        <p>Mozzarella, ricotta fresca, pomodoro, salame ungherese, provola, basilico</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Ligure</h3>
+        <p>Mozzarella, pesto genovese, zucchine, speck, mandorle tostate</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span> <span class="price-sub">/ 28,00 € metro</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Gamberetti</h3>
+        <p>Pomodoro, mozzarella, gamberetti*, funghi freschi, panna</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span> <span class="price-sub">/ 27,50 € metro</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- SEZIONE PIZZOLI -->
+<section class="section" id="pizzoli">
+  <div class="section-head">
+    <p class="kicker">Tipicità di Sortino</p>
+    <h2>Pizzoli</h2>
+    <span class="subnote">Tutti i pizzoli sono conditi con olio extravergine d'oliva, origano e grana · Formati: Mini / Normale</span>
+  </div>
+  <div class="menu-list">
+    <article>
+      <div>
+        <h3>Zuccoso</h3>
+        <p>Crema di zucca, salsiccia, olive nere, provola affumicata</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">8,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>14,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Monticelli</h3>
+        <p>Finocchietto selvatico, porchetta, salsiccia, mozzarella di bufala, olio, origano</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">8,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>15,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Pastorella</h3>
+        <p>Svizzero, salsiccia, peperoni, cipolla*, funghi freschi</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Kaori</h3>
+        <p>Mozzarella, ciliegino, philadelphia, prosciutto crudo, rucola</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Broccolino</h3>
+        <p>Mozzarella, broccoli*, salsiccia, capuliato, olive nere</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Cotto</h3>
+        <p>Mozzarella, prosciutto cotto, olio, origano</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">6,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>10,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Piccante</h3>
+        <p>Salame piccante, mozzarella, svizzero</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>11,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Paesano</h3>
+        <p>Philadelphia, mortadella, lattuga, ciliegino, olio, origano</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>12,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Parmigiano</h3>
+        <p>Pomodoro, mozzarella, prosciutto cotto, melanzane fritte, uovo, parmigiano</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">8,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Bresaola</h3>
+        <p>Philadelphia, bresaola</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>11,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Pantalica</h3>
+        <p>Mozzarella, porchetta, svizzero, cipolla*, funghi porcini</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Catanese</h3>
+        <p>Carne di cavallo, mozzarella, philadelphia, pesto di pistacchio, granella di pistacchio</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">9,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>16,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Furia</h3>
+        <p>Mozzarella, carne di cavallo, svizzero, cipolla*</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">8,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>15,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Pollaccio</h3>
+        <p>Mozzarella, pollo, philadelphia, pesto di pistacchio, funghi porcini</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">9,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>16,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Val d’Anapo</h3>
+        <p>Mozzarella, porchetta, patè di olive verdi, scaglie di grana</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vegetariano</h3>
+        <p>Mozzarella, melanzane e zucchine grigliate, peperoni, pomodoro condito</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Al Tonno</h3>
+        <p>Mozzarella, pomodoro a fette, tonno, cipolla*, origano, olio</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>12,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Saporito</h3>
+        <p>Mozzarella di bufala, prosciutto crudo, funghi porcini</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">8,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>14,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Crudo</h3>
+        <p>Prosciutto crudo, provola affumicata</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">6,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>10,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Cinghiale</h3>
+        <p>Carne di cinghiale, svizzero, funghi porcini</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">9,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>17,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Caprese</h3>
+        <p>Mozzarella, pomodoro a fette, lattuga, origano, olio</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">6,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>10,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Ungherese</h3>
+        <p>Salame ungherese, provola, rucola, origano, olio</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">7,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>13,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Rustico</h3>
+        <p>Ricotta fresca, spinaci*, salsiccia, scaglie di grana</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">8,00 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>14,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Trinacria</h3>
+        <p>Philadelphia, capuliato, prosciutto cotto</p>
+      </div>
+      <div class="price-box"><span class="price-tag">Mini</span><span class="price-main">6,50 €</span> <span class="price-sub">/ <span class="price-tag">Normale</span>10,50 €</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- SEZIONE VOTA VOTA -->
+<section class="section section--accent" id="vota">
+  <div class="section-head">
+    <p class="kicker">Specialità ripiegata</p>
+    <h2>Vota Vota</h2>
+    <span class="subnote">Tutti i Vota Vota sono conditi con olio extravergine d'oliva, origano e grana</span>
+  </div>
+  <div class="menu-list">
+    <article>
+      <div>
+        <h3>Vota 1</h3>
+        <p>Mozzarella, spinaci*, prosciutto cotto, provola</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 2</h3>
+        <p>Mozzarella, salsiccia, peperoni, cipolla*</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 3</h3>
+        <p>Mozzarella, salame piccante, svizzero</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 4</h3>
+        <p>Mozzarella, pollo, philadelphia, provola</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 5</h3>
+        <p>Mozzarella, carne di cavallo, cipolla*, svizzero</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 6</h3>
+        <p>Broccoli*, salsiccia, pecorino piccante</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 7</h3>
+        <p>Mozzarella, porchetta, cipolla*, funghi porcini, svizzero</p>
+      </div>
+      <div class="price-box"><span class="price-main">8,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 8</h3>
+        <p>Mozzarella, zucca, speck, cipolla, provola</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 9</h3>
+        <p>Mozzarella, salame piccante, broccoli*, cipolla*, provola affumicata, olive</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 10</h3>
+        <p>Mozzarella, philadelphia, rucola, prosciutto crudo, scaglie di grana, glassa di aceto balsamico</p>
+      </div>
+      <div class="price-box"><span class="price-main">9,00 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 11</h3>
+        <p>Mozzarella, pomodoro secco, acciughe, olive</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span></div>
+    </article>
+    <article>
+      <div>
+        <h3>Vota 12</h3>
+        <p>Gorgonzola, provola affumicata, mortadella</p>
+      </div>
+      <div class="price-box"><span class="price-main">7,50 €</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- SEZIONE DOLCI, FRITTI, BEVANDE, SUPPLEMENTI -->
+<section class="section" id="extra">
+  <div class="section-head">
+    <p class="kicker">Per completare</p>
+    <h2>Dolci, fritti<br>&amp; bevande</h2>
+  </div>
+  <div class="info-grid">
+    <div class="info-block">
+      <h3>Pizze &amp; Pizzoli dolci</h3>
+      <p><strong>Nutella</strong> (Nutella, granella di nocciola, zucchero a velo) — <span class="price-tag">Pizza</span>7,00 € / <span class="price-tag">Pizzolo</span>10,00 €</p>
+      <p><strong>Pistacchio</strong> (Pistacchio, granella di pistacchio, zucchero a velo) — <span class="price-tag">Pizza</span>8,00 € / <span class="price-tag">Pizzolo</span>11,00 €</p>
+      <p><strong>Cioccolato bianco</strong> (Cioccolato bianco, granella di cioccolato fondente, zucchero a velo) — <span class="price-tag">Pizza</span>8,00 € / <span class="price-tag">Pizzolo</span>11,00 €</p>
+      <p><strong>Ricotta e amarena</strong> (Ricotta dolce, glassa di amarena, ciliegie, zucchero a velo) — <span class="price-tag">Pizza</span>8,00 € / <span class="price-tag">Pizzolo</span>11,00 €</p>
+      <p><strong>Ricotta e cioccolato</strong> (Ricotta dolce, glassa di cioccolato, zucchero a velo) — <span class="price-tag">Pizza</span>8,00 € / <span class="price-tag">Pizzolo</span>11,00 €</p>
+      <p><strong>Ricotta e miele</strong> (Ricotta dolce, miele) — <span class="price-tag">Pizza</span>8,00 € / <span class="price-tag">Pizzolo</span>11,00 €</p>
+      <p><strong>Crema di limone</strong> (Crema di limone, zucchero a velo) — <span class="price-tag">Pizza</span>7,50 € / <span class="price-tag">Pizzolo</span>9,00 €</p>
+    </div>
+
+    <div class="info-block">
+      <h3>Antipasti &amp; Fritti</h3>
+      <p>Patatine fritte* — 2,50 €</p>
+      <p>Patatine con buccia* — 3,00 €</p>
+      <p>7 Crocchette di patate* — 3,00 €</p>
+      <p>7 Crocchette di mozzarella* — 3,50 €</p>
+      <p>7 Olive ascolane* — 3,50 €</p>
+      <p>7 Anelli di cipolla* — 3,50 €</p>
+      <p><strong>Misto fritto piccolo*</strong> (3 olive ascolane*, 3 anelli di cipolla*, 3 crocchette di patate*, 3 mozzarelline*, patatine fritte*) — <strong>7,00 €</strong></p>
+      <p><strong>Misto fritto grande*</strong> (5 olive ascolane*, 5 anelli di cipolla*, 5 crocchette di patate*, 5 mozzarelline*, patatine fritte*) — <strong>11,00 €</strong></p>
+    </div>
+
+    <div class="info-block">
+      <h3>Bordo ripieno</h3>
+      <p>Ricotta fresca — 2,50 €</p>
+      <p>Philadelphia — 2,00 €</p>
+      <p>Pesto di pistacchio — 2,50 €</p>
+      <p>Crema di zucca — 2,50 €</p>
+      <p>Mozzarella — 1,50 €</p>
+      <p>Salsiccia — 2,00 €</p>
+    </div>
+
+    <div class="info-block">
+      <h3>Bevande</h3>
+      <p>Coca-Cola 1,5 L — 3,00 €</p>
+      <p>Coca-Cola / Fanta / Sprite / Chinotto 33 cl — 1,50 €</p>
+      <p>Thè pesca / limone / Lemon soda 33 cl — 2,00 €</p>
+      <p>Heineken / Nastro Azzurro / Moretti 33 cl — 2,00 €</p>
+      <p>Heineken / Nastro Azzurro / Beck’s / Moretti 66 cl — 3,50 €</p>
+      <p>Acqua naturale / gassata 100 cl — 1,50 €</p>
+      <p>Acqua naturale / gassata 50 cl — 1,00 €</p>
+    </div>
+
+    <div class="info-block" style="grid-column: 1 / -1;">
+      <h3>Supplementi</h3>
+      <div class="supplement-category"><span class="supplement-price">0,50 €</span> olive nere, cipolla*</div>
+      <div class="supplement-category"><span class="supplement-price">1,00 €</span> uovo, piselli*, würstel, acciughe, melanzane, zucchine, grana, ricotta salata, panna, spinaci*, broccoli*, rucola, ciliegino, pomodoro secco, capuliato</div>
+      <div class="supplement-category"><span class="supplement-price">1,50 €</span> radicchio, funghi freschi, carciofini, mozzarella, gorgonzola, scaglie di grana, mandorle tostate, granella di pistacchio, prosciutto cotto, salame piccante, mortadella, salsiccia, porchetta, tonno, pesto genovese</div>
+      <div class="supplement-category"><span class="supplement-price">2,00 €</span> mozzarella di bufala, provola affumicata, philadelphia, crema di zucca, funghi porcini, salmone, prosciutto crudo, bresaola, speck, pancetta, ’nduja, svizzero</div>
+      <div class="supplement-category"><span class="supplement-price">2,50 €</span> pesto di pistacchio, patè di olive verdi</div>
+      <div class="supplement-category"><span class="supplement-price">3,00 €</span> carne di cavallo, pollo, gamberetti*</div>
+      <div><span class="badge-gluten">Base pizza senza glutine — 3,50 €</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section footer-note">
+  <p><strong>Consegna a domicilio:</strong> con una spesa minima di 20 € consegna anche a Floridia.</p>
+  <p><strong>* Note:</strong> Alcuni prodotti possono essere surgelati. Alcune pietanze possono contenere tracce di allergeni. Chiedi sempre conferma al personale.</p>
+</section>
+</main>
+
+<footer>
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <strong>La Bella Sortino</strong>
+      Pizzeria · Pizzoleria d'asporto<br>
+      <a href="https://www.google.com/maps/place/La+Bella+Sortino+-+Pizzeria+Pizzoleria+Solarino+%7C+da+asporto/@37.1020961,15.1182205,17z/data=!3m1!4b1!4m6!3m5!1s0x1313d735142e11b1:0x3d7ee2b1640ca893!8m2!3d37.1020918!4d15.1207954!16s%2Fg%2F11q3bt3080!5m2!1e4!1e3?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Corso Italia, 2 · 96010 Solarino (SR)</a><br>
+      Tel: <a href="tel:+393803765510">380 376 5510</a> · <a href="tel:+393898245029">389 824 5029</a>
+    </div>
+    <div class="footer__socials">
+      <a href="https://www.google.com/maps/place/La+Bella+Sortino+-+Pizzeria+Pizzoleria+Solarino+%7C+da+asporto/@37.1020961,15.1182205,17z/data=!3m1!4b1!4m6!3m5!1s0x1313d735142e11b1:0x3d7ee2b1640ca893!8m2!3d37.1020918!4d15.1207954!16s%2Fg%2F11q3bt3080!5m2!1e4!1e3?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        Google Maps
+      </a>
+      <a href="https://www.instagram.com/la_bella_sortino_pizzolleria/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Instagram
+      </a>
+      <a href="https://www.facebook.com/p/La-bella-Sortino-100077087468778/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Facebook
+      </a>
+      <a href="https://wa.me/393803765510" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

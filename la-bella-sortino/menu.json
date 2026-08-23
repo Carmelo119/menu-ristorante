@@ -1,1 +1,31 @@
-{"restaurant":{"name":"La Bella Sortino - Pizzeria Pizzoleria Solarino","address":"Corso Italia, 2, 96010 Solarino (SR)","phone":"+39 380 3765510","delivery":"Con una spesa minima di 20 € consegna anche a Floridia","source":"Senza-nome.pdf fornito dall'utente","sourceDate":"non indicata","lastVerified":"2026-08-15"},"sections":{"pizze":"20 pizze classiche con formato metro dove indicato","pizze_speciali":"20 proposte speciali con prezzo singolo e formato metro dove presente","pizzoli":"24 proposte, tutti con olio EVO, origano e grana","vota_vota":"12 proposte, tutti con olio EVO, origano e grana","dolci":"7 proposte pizza/pizzolo","antipasti":"Patatine, crocchette, olive e anelli di cipolla","bevande":"Acqua, bibite e birre","fritti":"Misto fritto piccolo 6 € e grande 10 €","supplementi":"Fasce da 0,50 € a 3,50 €; base senza glutine 3 €"},"notes":["Il PDF contiene OCR con diversi refusi; i nomi sono stati normalizzati solo quando il significato era chiaro.","La voce originale 'TONNO' presenta ingredienti che sembrano corrispondere alla Norma; verificare con il locale.","La voce originale 'DIAVOLA' contiene ingredienti tipici della 007; verificare con il locale.","Le disponibilità del formato metro devono essere confermate.","Gli allergeni devono essere verificati direttamente con il personale."]}
+{
+  "restaurant": {
+    "name": "La Bella Sortino - Pizzeria Pizzoleria Solarino",
+    "address": "Corso Italia, 2, 96010 Solarino (SR)",
+    "phones": [
+      "+39 380 3765510",
+      "+39 389 8245029"
+    ],
+    "delivery": "Con una spesa minima di 20 € consegna anche a Floridia",
+    "social": {
+      "googleMaps": "https://www.google.com/maps/place/La+Bella+Sortino+-+Pizzeria+Pizzoleria+Solarino+%7C+da+asporto/@37.1020961,15.1182205,17z/data=!3m1!4b1!4m6!3m5!1s0x1313d735142e11b1:0x3d7ee2b1640ca893!8m2!3d37.1020918!4d15.1207954!16s%2Fg%2F11q3bt3080!5m2!1e4!1e3?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D",
+      "instagram": "https://www.instagram.com/la_bella_sortino_pizzolleria/",
+      "facebook": "https://www.facebook.com/p/La-bella-Sortino-100077087468778/",
+      "whatsapp": "https://wa.me/393803765510"
+    },
+    "source": "menu_1.png & menu_2.png (originali fotografici)",
+    "lastVerified": "2026-08-23"
+  },
+  "sections": {
+    "pizze": "23 pizze classiche e calzoni, con formato al metro dove indicato",
+    "pizze_speciali": "20 pizze speciali e gourmet, con formato singolo e al metro",
+    "pizzoli": "24 pizzoli con distinzione di formato Mini e Normale (conditi con olio EVO, origano e grana)",
+    "vota_vota": "12 proposte Vota Vota (conditi con olio EVO, origano e grana)",
+    "dolci": "7 proposte dolci disponibili sia in formato Pizza che Pizzolo",
+    "antipasti": "Patatine fritte (2,50 €), con buccia (3,00 €), 7 crocchette patate (3,00 €), 7 crocchette mozzarella (3,50 €), 7 olive ascolane (3,50 €), 7 anelli di cipolla (3,50 €)",
+    "misto_fritto": "Piccolo (7,00 €) e Grande (11,00 €)",
+    "bordo_ripieno": "Ricotta fresca (2,50 €), Philadelphia (2,00 €), Pesto di pistacchio (2,50 €), Crema di zucca (2,50 €), Mozzarella (1,50 €), Salsiccia (2,00 €)",
+    "bevande": "Acqua (1,00 € / 1,50 €), Bibite 33cl (1,50 €), Thè/Lemon soda (2,00 €), Birre 33cl (2,00 €), Birre 66cl (3,50 €), Coca-Cola 1.5L (3,00 €)",
+    "supplementi": "Fasce di prezzo da 0,50 €, 1,00 €, 1,50 €, 2,00 €, 2,50 €, 3,00 €; Base pizza senza glutine 3,50 €"
+  }
+}
