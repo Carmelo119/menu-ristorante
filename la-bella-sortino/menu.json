@@ -1,1 +1,16 @@
-{"restaurant":{"name":"La Bella Sortino - Pizzeria Pizzoleria Solarino","address":"Corso Italia, 2, 96010 Solarino (SR)","phone":"+39 380 3765510","delivery":"Con una spesa minima di 20 € consegna anche a Floridia","source":"Senza-nome.pdf fornito dall'utente","sourceDate":"non indicata","lastVerified":"2026-08-15"},"sections":{"pizze":"20 pizze classiche con formato metro dove indicato","pizze_speciali":"20 proposte speciali con prezzo singolo e formato metro dove presente","pizzoli":"24 proposte, tutti con olio EVO, origano e grana","vota_vota":"12 proposte, tutti con olio EVO, origano e grana","dolci":"7 proposte pizza/pizzolo","antipasti":"Patatine, crocchette, olive e anelli di cipolla","bevande":"Acqua, bibite e birre","fritti":"Misto fritto piccolo 6 € e grande 10 €","supplementi":"Fasce da 0,50 € a 3,50 €; base senza glutine 3 €"},"notes":["Il PDF contiene OCR con diversi refusi; i nomi sono stati normalizzati solo quando il significato era chiaro.","La voce originale 'TONNO' presenta ingredienti che sembrano corrispondere alla Norma; verificare con il locale.","La voce originale 'DIAVOLA' contiene ingredienti tipici della 007; verificare con il locale.","Le disponibilità del formato metro devono essere confermate.","Gli allergeni devono essere verificati direttamente con il personale."]}
+{
+  "restaurant": "La Bella Sortino",
+  "address": "Corso Italia, 2 - 96010 Solarino (SR)",
+  "mapsUrl": "https://www.google.com/maps/place/La+Bella+Sortino+-+Pizzeria+Pizzoleria+Solarino+%7C+da+asporto/@37.1020961,15.1182205,17z/data=!3m1!4b1!4m6!3m5!1s0x1313d735142e11b1:0x3d7ee2b1640ca893!8m2!3d37.1020918!4d15.1207954!16s%2Fg%2F11q3bt3080!5m2!1e4!1e3?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D",
+  "delivery": "Consegna anche a Floridia con una spesa minima di 20 €",
+  "priceFormats": {
+    "pizza": ["normale", "al metro"],
+    "pizzolo": ["mini", "normale"],
+    "dolci": ["pizza", "pizzolo"]
+  },
+  "notes": [
+    "Tutti i pizzoli sono conditi con olio extra vergine di oliva, origano e grana.",
+    "La base pizza senza glutine ha un supplemento di 3,50 €.",
+    "I prezzi e gli ingredienti devono essere verificati sul menu cartaceo prima della pubblicazione definitiva."
+  ]
+}
